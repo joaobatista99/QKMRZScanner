@@ -45,7 +45,7 @@ class QKCutoutView: UIView {
         
         borderLayer.path = UIBezierPath(roundedRect: cutoutRect, cornerRadius: cornerRadius).cgPath
         borderLayer.lineWidth = 3
-        borderLayer.strokeColor = UIColor(red: 38.0/255.0, blue: 103/255.0, green: 190.0/255.0, alpha: 1.0).cgColor 
+        borderLayer.strokeColor = UIColor(red: 38.0/255.0, green: 190.0/255.0, blue: 103.0/255.0, alpha: 1.0).cgColor 
         borderLayer.frame = bounds
         
         layer.addSublayer(borderLayer)
